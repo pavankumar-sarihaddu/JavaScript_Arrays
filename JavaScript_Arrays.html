@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Length Properity</h2>
+
+<p>The length properity of an array returns the length of an array (the number of array elements).</p>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["apple","mango","banana","orange"];
+document.getElementById("demo").innerHTML=
+fruits.length;
+</script>
+
+<p id="demo1"></p>
+
+<script>
+cars = ["tata","ford","maruti","suzuki","honda"];
+document.getElementById("demo1").innerHTML=cars.length;
+</script>
+
+<p id="demo2"></p>
+
+<script>
+bikes = ["Bajaj","activa","glamor","unicorn"];
+document.getElementById("demo2").innerHTML=bikes[0];
+</script>
+
+<p id="demo3"></p>
+
+<script>
+bikes = ["bajaj","Activa","glamor","unicorn"];
+document.getElementById("demo3").innerHTML=bikes[1];
+</script>
+
+<p id="demo4"></p>
+
+<script>
+bikes = ["bajaj","activa","Glamor","unicorn"];
+document.getElementById("demo4").innerHTML=bikes[2];
+</script>
+
+<h2>JavaScript Arrays</h2>
+
+<p>JavaScript arrayelements are accesses using numeric indexes.</p>
+
+<h2>Adding Array Elements</h2>
+<p>The easiest way to add new element to an array is using the push()method:</p>
+
+<p>the push method appends a new element to an array.</p>
+
+<button onclick="myfunction()">Tryit</button>
+
+<p id="memo"></p>
+
+<script>
+fruits = ["Banana","Orange","Mango","Apple"];
+document.getElementById("memo").innerHTML=
+fruits;
+
+function myfunction(){
+   fruits.push("Lemon");
+   document.getElementById("memo").innerHTML=
+fruits;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
